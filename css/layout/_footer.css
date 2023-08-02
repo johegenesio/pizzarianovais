@@ -58,7 +58,7 @@ ul.list_footer > li {
         padding: 40px 8vw;
     }
     .container_footer {
-        grid-template: 180px 220px / repeat(2, 1fr);
+        grid-template: 180px 260px / repeat(2, 1fr);
         gap: 16px;
     }
     .empresa {
