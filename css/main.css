@@ -1,0 +1,15 @@
+@import url('base/_reset.css');
+@import url('base/_typography.css');
+@import url('base/_variaveis.css');
+@import url('layout/_nav.css');
+@import url('layout/_header.css');
+@import url('module/_button.css');
+@import url('module/_card.css');
+@import url('layout/_section_card.css');
+@import url('layout/_body.css');
+@import url('layout/_section_delivery.css');
+@import url('layout/_section_local.css');
+@import url('layout/_section_sobre.css');
+@import url('layout/_footer.css');
+@import url('module/_form&icon.css');
+@import url('layout/_border.css');

@@ -1,0 +1,80 @@
+footer {
+    width: 100%;
+    background-color: var(--cor-preta);
+
+    padding: 40px 8vw;
+}
+
+.container_footer {
+    display: grid;
+    grid-template: 100px 100px / repeat(4, 1fr);
+    gap: 16px;
+}
+
+.empresa {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    border-bottom: 1px solid var(--cor-branca);
+}
+
+.site_caminhos {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+    border-bottom: 1px solid var(--cor-branca);
+}
+
+.servicos {
+    grid-row: 1 / 3;
+    grid-column: 3 / 4;
+    border-bottom: 1px solid var(--cor-branca);
+}
+
+.redes_sociais {
+    grid-row: 1 / 3;
+    grid-column: 4 / 5;
+    border-bottom: 1px solid var(--cor-branca);
+}
+
+ul.list_footer > li {
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-top: 8px;
+
+    color: var(--cor-branca);
+}
+
+.site_caminhos > ul > li > a {
+    padding: 0;
+}
+
+.redes_sociais > ul > li > a {
+    padding: 0;
+}
+
+@media (max-width: 700px) {
+    .container_footer {
+        grid-template: 140px 220px / repeat(2, 1fr);
+        gap: 16px;
+    }
+    .empresa {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    
+    .site_caminhos {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        border-bottom: none
+    }
+    
+    .servicos {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+    
+    .redes_sociais {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        border-bottom: none;
+    }
+}

@@ -1,0 +1,44 @@
+.svg_form_verde {
+    position: absolute;
+    right: -30px;
+    top: -50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_svg_verde {
+    position: absolute;
+    transform: rotate(24deg);
+}
+
+.svg_form_rosa {
+    position: absolute;
+    top: -50px;
+    left: -30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_svg_rosa {
+    position: absolute;
+    transform: rotate(-22deg);
+}
+
+.svg_form_laranja {
+    position: absolute;
+    top: -50px;
+    right: -30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_svg_laranja {
+    position: absolute;
+    transform: translateY(4px);
+}

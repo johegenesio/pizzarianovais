@@ -1,0 +1,15 @@
+#sobre {
+    margin: 64px 8vw;
+
+    position: relative;
+}
+
+.txt_sobre > h2 {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 700px) {
+    #sobre {
+        margin: 56px 8vw;
+    }
+}
