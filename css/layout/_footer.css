@@ -7,7 +7,7 @@ footer {
 
 .container_footer {
     display: grid;
-    grid-template: 100px 100px / repeat(4, 1fr);
+    grid-template: 100px 120px / repeat(4, 1fr);
     gap: 16px;
     border-bottom: 1px solid var(--cor-branca);
 }
