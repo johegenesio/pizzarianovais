@@ -85,7 +85,6 @@ ul.list_footer > li {
     }
     .empresa {
         width: 48%;
-        height: 100%;
     }
     
     .site_caminhos {
@@ -104,5 +103,20 @@ ul.list_footer > li {
 @media (max-width: 700px) {
     .container_footer {
         flex-direction: column;
+    }
+    .empresa {
+        width: 100%;
+    }
+    
+    .site_caminhos {
+        width: 100%;
+    }
+    
+    .redes_sociais {
+        width: 100%;
+    }
+    
+    .contato {
+        width: 100%;
     }
 }
