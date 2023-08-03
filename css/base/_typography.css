@@ -5,6 +5,13 @@
     line-height: 125%;
 }
 
+.text-sm-strong {
+    font-size: var(--t-14);
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    line-height: 125%;
+}
+
 .text-base {
     font-size: var(--t-16);
     font-family: var(--font-family-poppins);
