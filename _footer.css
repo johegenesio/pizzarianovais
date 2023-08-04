@@ -1,0 +1,126 @@
+footer {
+    width: 100%;
+    
+    background-color: var(--cor-preta);
+    padding: 72px 8vw;
+}
+
+h4 {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.borda-b {
+    border: 1px solid var(--cor-branca);
+    border-radius: 24px;
+    padding: 24px;
+    width: 100%;
+}
+
+.container_footer {
+    display: flex;
+    gap: 16px;
+}
+
+.empresa {
+    width: 100%;
+    height: 100%;
+    padding: 8px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site_caminhos {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+}
+
+.redes_sociais {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+}
+
+.contato {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    
+}
+
+.contato > p {
+    margin-top: 16px;
+}
+
+.contato > ul > li > a {
+    padding: 0;
+}
+
+.list_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+ul.list_footer > li {
+    color: var(--cor-branca);
+}
+
+.site_caminhos > ul > li > a {
+    padding: 0;
+}
+
+.redes_sociais > ul > li > a {
+    padding: 0;
+}
+
+.gap_plus {
+    gap: 16px;
+}
+
+@media (max-width: 1000px) {
+    footer {
+        padding: 56px 8vw;
+    }
+    .container_footer {
+        flex-wrap: wrap;
+    }
+    .empresa {
+        width: 48%;
+    }
+    .site_caminhos {
+        width: 48%;
+    }  
+    .redes_sociais {
+        width: 48%;
+    }
+    .contato {
+        width: 48%;
+    }
+    .gap_plus {
+        gap: 24px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container_footer {
+        flex-direction: column;
+    }
+    .empresa {
+        width: 100%;
+    }
+    .site_caminhos {
+        width: 100%;
+    }
+    .redes_sociais {
+        width: 100%;
+    }
+    .contato {
+        width: 100%;
+    }
+    .gap_plus {
+        gap: 16px;
+    }
+}

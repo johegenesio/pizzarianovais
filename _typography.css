@@ -1,0 +1,62 @@
+.text-sm {
+    font-size: var(--t-14);
+    font-family: var(--font-family-poppins);
+    font-weight: 300;
+    line-height: 125%;
+}
+
+.text-sm-strong {
+    font-size: var(--t-14);
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.text-base {
+    font-size: var(--t-16);
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text-base-strong {
+    font-size: var(--t-16);
+    font-family: var(--font-family-poppins);
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.text-lg {
+    font-size: var(--t-18);
+    font-family: var(--font-family-poppins);
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.text-2xl {
+    font-size: var(--t-24);
+    font-family: var(--font-family-poppins);
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.text-5xl {
+    font-size: var(--t-48);
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.titulo_principal {
+    font-size: var(--t-48);
+    font-family: var(--font-family-oferta-do-dia);
+    line-height: 100%;
+}
+
+.text-branco {
+    color: var(--cor-branca);
+}
+
+.text-preto {
+    color: var(--cor-preta);
+}
