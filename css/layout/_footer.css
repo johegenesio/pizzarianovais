@@ -76,6 +76,10 @@ ul.list_footer > li {
     padding: 0;
 }
 
+.gap_plus {
+    gap: 16px;
+}
+
 @media (max-width: 1000px) {
     footer {
         padding: 56px 8vw;
@@ -86,17 +90,17 @@ ul.list_footer > li {
     .empresa {
         width: 48%;
     }
-    
     .site_caminhos {
         width: 48%;
-    }
-    
+    }  
     .redes_sociais {
         width: 48%;
     }
-    
     .contato {
         width: 48%;
+    }
+    .gap_plus {
+        gap: 24px;
     }
 }
 
@@ -107,16 +111,16 @@ ul.list_footer > li {
     .empresa {
         width: 100%;
     }
-    
     .site_caminhos {
         width: 100%;
     }
-    
     .redes_sociais {
         width: 100%;
     }
-    
     .contato {
         width: 100%;
+    }
+    .gap_plus {
+        gap: 16px;
     }
 }

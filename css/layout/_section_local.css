@@ -35,6 +35,12 @@ iframe {
     height: 100%;
 }
 
+@media (max-width: 1000px) {
+    #localizacao {
+        gap: 40px;
+    }
+}
+
 @media (max-width: 700px) {
     #localizacao {
         flex-direction: column;
