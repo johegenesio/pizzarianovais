@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav>
-            <img class="logotipo" src="imagens/Logotipo pizzaria Novais.png" alt="Logotipo da pizzaria">
+            <a href="index.html"><img class="logotipo" src="imagens/Logotipo pizzaria Novais.png" alt="Logotipo da pizzaria"></a>
             <ul class="lista_menu menu">
                 <li><a href="#" class="text-base text-preto">Home</a></li>
                 <li><a href="#localizacao" class="text-base text-preto">Localização</a></li>
@@ -30,7 +30,19 @@
                 </li>
             </ul>
             <div class="menu-content" id="menuContent">
-                <a href="./login.html">Login</a>
+                <div class="borda-p">
+                    <div class="fechar" id="menuFechar">
+                        <span class="material-symbols-outlined">close</span>
+                    </div>
+                    <div class="caminhos">
+                        <a class="titulo_principal link_menu" href="./index.html">Home</a>
+                        <a class="titulo_principal link_menu" href="./login.html">Login</a>
+                        <a class="titulo_principal link_menu" href="./login.html">Cadastro</a>
+                        <a class="titulo_principal link_menu" href="">Menu de pizzas</a>
+                        <a class="titulo_principal link_menu" href="">Fazer pedido</a>
+                        <a class="titulo_principal link_menu" href="">Oferta do dia</a>
+                    </div>
+                </div>
             </div>
         </nav>
         <div class="mensagem_principal">
@@ -63,7 +75,7 @@
         </section>
         <section id="delivery">
             <div class="borda-p">
-                <div class="svg_form_verde">
+                <div class="svg_form_right">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
                         <path d="M50 0L57.7646 21.0222L75 6.69873L71.2132 28.7868L93.3013 25L78.9778 42.2354L100 50L78.9778 57.7646L93.3013 75L71.2132 71.2132L75 93.3013L57.7646 78.9778L50 100L42.2354 78.9778L25 93.3013L28.7868 71.2132L6.69873 75L21.0222 57.7646L0 50L21.0222 42.2354L6.69873 25L28.7868 28.7868L25 6.69873L42.2354 21.0222L50 0Z" fill="#C5FF86" stroke="#202020"/>
                     </svg>
@@ -76,8 +88,8 @@
                     <div class="borda-p tel_delivery">
                         <h3 class="text-lg">Nem precisa sair de casa, liga para gente, no conforto da sua casa</h3>
                         <div class="tel_number">
-                            <span class="material-symbols-outlined">call</span>
-                            <a href="tel:+55(11)36857999" class="text-2xl">(11)3685-7999</a>
+                            <a href="tel:+55(11)36857999" class="text-2xl text-preto"><span class="material-symbols-outlined">call</span>(11)3685-7999</a>
+                            <a href="" class="text-2xl text-preto"><i class="fa-brands fa-whatsapp fa-lg" style="color: #202020;"></i>(11)98999-9999</a>
                         </div>
                     </div>
                     <div class="borda-p apps_delivery">
@@ -93,7 +105,7 @@
         </section>
         <section id="localizacao">
             <div class="borda-p div_local">
-                <div class="svg_form_rosa">
+                <div class="svg_form_left">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
                         <path d="M59.7817 27.3546L84.3001 15.6999L72.6454 40.2183L72.4076 40.7184L72.9295 40.904L98.5077 50L72.9295 59.096L72.4076 59.2816L72.6454 59.7817L84.3001 84.3001L59.7817 72.6454L59.2816 72.4076L59.096 72.9295L50 98.5077L40.904 72.9295L40.7184 72.4076L40.2183 72.6454L15.6999 84.3001L27.3546 59.7817L27.5924 59.2816L27.0705 59.096L1.49228 50L27.0705 40.904L27.5924 40.7184L27.3546 40.2183L15.6999 15.6999L40.2183 27.3546L40.7184 27.5924L40.904 27.0705L50 1.49228L59.096 27.0705L59.2816 27.5924L59.7817 27.3546Z" fill="#FFB7DA" stroke="#202020"/>
                     </svg>
@@ -122,11 +134,11 @@
         </section>
         <section id="sobre">
             <div class="borda-p">
-                <div class="svg_form_laranja">
+                <div class="svg_form_right">
                     <svg xmlns="http://www.w3.org/2000/svg" width="96" height="91" viewBox="0 0 96 91" fill="none">
                         <path d="M48 1.52286L59.2834 33.9838L59.3977 34.3125L59.7455 34.3196L94.1045 35.0197L66.7191 55.7819L66.4418 55.9921L66.5426 56.3251L76.4941 89.2188L48.2856 69.5896L48 69.3909L47.7144 69.5896L19.5059 89.2188L29.4574 56.3251L29.5582 55.9921L29.2809 55.7819L1.8955 35.0197L36.2545 34.3196L36.6023 34.3125L36.7166 33.9838L48 1.52286Z" fill="#FFCD99" stroke="#202020"/>
                     </svg>
-                    <span class="material-symbols-outlined icon_svg_laranja">auto_stories</span>
+                    <span class="material-symbols-outlined icon_svg_tlY">auto_stories</span>
                 </div>
                 <div class="txt_sobre">
                     <h2 class="titulo_principal">Sobre</h2>
@@ -153,6 +165,7 @@
                     <li><a href="" class="text-sm text-branco"><i class="fa-brands fa-instagram fa-xl" style="color: #fbfbfb; margin-right: 8px;"></i>Instagram</a></li>                    
                     <li><a href="" class="text-sm text-branco"><i class="fa-brands fa-twitter fa-xl" style="color: #fbfbfb; margin-right: 8px;"></i>X (Twitter)</a></li>                    
                     <li><a href="" class="text-sm text-branco"><i class="fa-brands fa-tiktok fa-xl" style="color: #fbfbfb; margin-right: 8px;"></i>Tiktok</a></li>
+                    <li><a href="" class="text-sm text-branco"><i class="fa-brands fa-whatsapp fa-xl" style="color: #fbfbfb; margin-right: 8px;"></i>Whatsapp</a></li>
                 </ul>
             </article>
             <article class="site_caminhos borda-b">

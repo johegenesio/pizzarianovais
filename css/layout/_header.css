@@ -61,9 +61,7 @@ nav {
         padding: 8px;
         text-align: center;
         margin-top: 48px;
-    }
-    .mensagem_principal > p {
-        margin: 24px 8px;
+        padding: 0 16px;
     }
     .imagem_principal{
         width: 350px;

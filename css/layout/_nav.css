@@ -1,7 +1,8 @@
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100px;
+    padding: 0 8vw;
     align-items: center;
 }
 
@@ -15,7 +16,6 @@ nav > ul > li  {
 
 a {
     text-decoration: none;
-    padding: 0px 16px;
 }
 
 .logotipo {
@@ -25,24 +25,100 @@ a {
 
 .menu-content {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
-    width: 350px;
+    width: 30vw;
     height: 100%;
-    z-index: 2;
-    background-color: var(--cor3);
+    z-index: 10;
+    background-color: var(--cor-de-fundo);
+    outline: 1px solid var(--cor-preta);
+    padding: 24px;
+}
+
+.menu-content > p {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    text-align: end;
+}
+
+.fechar {
+    padding: 8px;
+    border: 1px solid var(--cor-preta);
+    border-radius: 24px;
+    position: absolute;
+    top: 48px;
+    right: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caminhos {
+    margin-top: 88px;
+}
+
+.caminhos > a {
+    margin: 24px 0 0 0;
+    text-align: end;
+}
+
+.caminhos > a:hover {
+    text-decoration: underline;
+}
+
+.link_menu {
+    display: block;
+    margin-top: 24px;
+    color: var(--cor-preta);
+}
+
+#menuIcon, #menuFechar {
+    cursor: pointer;
+}
+
+.lista_menu > li > a {
+    margin: 0 32px;
+}
+
+.lista_menu > li > a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1280px) {
+    .menu-content {
+        width: 38vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .menu-content {
+        width: 60vw;
+    }
 }
 
 @media (max-width: 700px) {
     nav {
         height: 80px;
+        justify-content: space-between;
     }
     .menu {
         display: none;
     }
+    .menu-content {
+        width: 100vw;
+        padding: 16px;
+    }
+    .fechar {
+        top: 40px;
+        right: 40px;
+    }
     .logotipo {
         width: 72px;
         height: 72px;
+    }
+    .caminhos > a {
+        font-size: var(--t-48);
     }
 }

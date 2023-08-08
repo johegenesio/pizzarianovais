@@ -1,0 +1,42 @@
+.login_section > h1 {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.login_section {
+    width: auto;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.login_cadastre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 72px 8vw;
+        padding: 0;
+    }
+}

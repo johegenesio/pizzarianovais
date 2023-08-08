@@ -1,0 +1,12 @@
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+html {
+    scroll-padding-top: 64px;
+}
+
+::selection {
+    color: var(--cor-preta);
+    background-color: var(--cor3);
+}

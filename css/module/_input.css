@@ -1,8 +1,20 @@
-button {
-    width: 180px;
-    height: 50px;
-
+input {
+    padding: 8px 16px;
+    border: 1px solid var(--cor-preta);
+    border-radius: 24px;
+    font-family: var(--font-family-poppins);
+    font-size: var(--t-14);
     background-color: transparent;
+    width: 350px;
+}
+
+label {
+    margin-left: 16px;
+}
+
+.btn_input {
+    height: 50px;
+    width: 180px;
 
     display: flex;
     align-items: center;
@@ -15,40 +27,21 @@ button {
     font-family: var(--font-family-poppins);
     cursor: pointer;
 
-    font-size: var(--t-14);
-}
-
-button:hover {
     background-color: var(--cor-preta);
     color: var(--cor-branca);
 
+    font-size: var(--t-14);
+}
+
+.btn_input:hover {
     transition: all .2s ease-in-out;
     
     border: 2px solid var(--cor-de-fundo);
     outline: 1px solid var(--cor-preta);
 }
 
-.btn_pedido {
-    height: 100%;
-    background-color: var(--cor-preta);
-    color: var(--cor-branca);
-}
-
-.btn_cadastre {
-    background-color: var(--cor-preta);
-    color: var(--cor-branca);
-    width: 100%;
-}
-
-.btn_cadastre:hover {
-    border: 2px solid var(--cor-de-fundo);
-}
-
 @media (max-width: 700px) {
-    button {
-        margin: auto;
-    }
-    .btn_pedido {
+    input {
         width: 100%;
     }
 }

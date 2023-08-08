@@ -13,6 +13,15 @@
     position: relative;
 }
 
+.div_local > h2 {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.div_local > article {
+    text-align: center;
+}
+
 .local > ul > li {
     margin-bottom: 2px;
 }

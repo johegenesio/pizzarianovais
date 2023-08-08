@@ -33,6 +33,13 @@
     line-height: 150%;
 }
 
+.text-lg-strong {
+    font-size: var(--t-18);
+    font-family: var(--font-family-poppins);
+    font-weight: 600;
+    line-height: 150%;
+}
+
 .text-2xl {
     font-size: var(--t-24);
     font-family: var(--font-family-poppins);

@@ -4,6 +4,12 @@ document.getElementById("menuIcon").addEventListener("click", function(event){
     event.stopPropagation();
 })
 
+document.getElementById("menuFechar").addEventListener("click", function(event){
+    let menuContent = document.getElementById("menuContent");
+    menuContent.style.display = menuContent.style.display === 'none' ? 'block' : 'none';
+    event.stopPropagation();
+})
+
 document.addEventListener("click", function(event){
     let menuContent = document.getElementById("menuContent");
     let menuIcon = document.getElementById("menuIcon")

@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="creator" content="João Genesio">
+    <meta name="theme-color" content="#202020">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Pizzaria Novais | Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/da6e63d36c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>Hello Novais</h1>
+    <header>
+        <nav>
+            <a href="index.html"><img class="logotipo" src="imagens/Logotipo pizzaria Novais.png" alt="Logotipo da pizzaria"></a>
+            <ul class="lista_icon">
+                <li>
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined" id="menuIcon">menu</span>
+                </li>
+            </ul>
+            <div class="menu-content" id="menuContent">
+                <div class="borda-p">
+                    <div class="fechar" id="menuFechar">
+                        <span class="material-symbols-outlined">close</span>
+                    </div>
+                    <div class="caminhos">
+                        <a class="titulo_principal link_menu" href="./index.html">Home</a>
+                        <a class="titulo_principal link_menu" href="./login.html">Login</a>
+                        <a class="titulo_principal link_menu" href="./login.html">Cadastro</a>
+                        <a class="titulo_principal link_menu" href="">Menu de pizzas</a>
+                        <a class="titulo_principal link_menu" href="">Fazer pedido</a>
+                        <a class="titulo_principal link_menu" href="">Oferta do dia</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="login">
+        <div class="container">
+            <section class="borda-p login_section">
+                <div class="svg_form_right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
+                        <path d="M56.6158 20.9823L69.6333 5.90283L67.1375 25.6668L67.0236 26.5691L67.8464 26.1819L85.8719 17.7008L75.5531 34.741L75.082 35.5189L75.9912 35.4999L95.9078 35.0836L79.5503 46.4536L78.8036 46.9726L79.6419 47.3251L98.0059 55.0456L78.438 58.7794L77.5447 58.9498L78.1672 59.6128L91.8034 74.1352L72.4085 69.5871L71.5231 69.3795L71.8221 70.2383L78.3726 89.0515L62.5044 77.0081L61.78 76.4583L61.7039 77.3645L60.036 97.2155L50.4381 79.7591L50 78.9622L49.5619 79.7591L39.964 97.2155L38.2961 77.3645L38.22 76.4583L37.4956 77.0081L21.6274 89.0515L28.1779 70.2383L28.4769 69.3795L27.5915 69.5871L8.19664 74.1352L21.8328 59.6128L22.4553 58.9498L21.562 58.7794L1.99407 55.0456L20.3581 47.3251L21.1964 46.9726L20.4497 46.4536L4.09216 35.0836L24.0088 35.4999L24.918 35.5189L24.4469 34.741L14.1281 17.7008L32.1536 26.1819L32.9764 26.5691L32.8625 25.6668L30.3667 5.90283L43.3842 20.9823L43.9784 21.6707L44.2413 20.8001L50 1.72964L55.7587 20.8001L56.0216 21.6707L56.6158 20.9823Z" fill="#C4FF86" stroke="black"/>
+                    </svg>
+                    <span class="material-symbols-outlined icon_svg">
+                        login
+                    </span>
+                </div>
+                <h1 class="titulo_principal">Login</h1>
+                <form action="" class="forms_login">
+                    <div class="container_form_input">
+                        <label class="text-sm-strong" for="email_login">Seu email:</label>
+                        <input type="email" name="" id="email_login" required>
+                    </div>
+                    <div class="container_form_input">
+                        <label class="text-sm-strong" for="senha_login">Sua senha:</label>
+                        <input type="password" name="" id="senha_login" required>
+                    </div>
+                    <a class="text-preto text-sm" href="">Esqueceu a senha?</a>
+                    <input class="btn_input" type="submit" value="Logar">
+                </form>
+            </section>
+            <section class="borda-p login_cadastre">
+                <h2 class="titulo_principal">Não tem conta?</h2>
+                <a href=""><button>Cadastra-se</button></a>
+            </section>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
