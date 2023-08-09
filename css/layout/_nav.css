@@ -68,6 +68,11 @@ a {
     text-decoration: underline;
 }
 
+.lista_icon {
+    display: flex;
+    gap: 8px;
+}
+
 .link_menu {
     display: block;
     margin-top: 24px;

@@ -16,17 +16,22 @@
     width: auto;
     height: auto;
     display: flex;
-    flex-direction: column;
-    gap: 24px;
+    gap: 32px;
 }
 
 .login_cadastre {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 16px;
     text-align: center;
+    width: 400px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 700px) {
@@ -38,5 +43,9 @@
         transform: none;
         margin: 72px 8vw;
         padding: 0;
+        gap: 56px;
+    }
+    .login_cadastre {
+        width: auto;
     }
 }

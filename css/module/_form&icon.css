@@ -1,4 +1,4 @@
-.svg_form_right {
+.svg_form_right, .svg_form_right_login {
     position: absolute;
     right: -28px;
     top: -50px;
@@ -16,7 +16,7 @@
 .svg_form_left {
     position: absolute;
     top: -50px;
-    left: -30px;
+    left: -28px;
 
     display: flex;
     justify-content: center;
@@ -35,4 +35,16 @@
 
 .icon_svg {
     position: absolute;
+}
+
+@media (max-width: 1000px) {
+    .svg_form_right_login{
+        position: absolute;
+        right: -28px;
+        top: 366px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
