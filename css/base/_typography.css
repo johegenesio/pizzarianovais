@@ -60,6 +60,12 @@
     line-height: 100%;
 }
 
+.text-link {
+    font-size: var(--t-32);
+    font-family: var(--font-family-oferta-do-dia);
+    line-height: 100%;
+}
+
 .text-branco {
     color: var(--cor-branca);
 }
