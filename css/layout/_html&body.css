@@ -8,5 +8,5 @@ html {
 
 ::selection {
     color: var(--cor-preta);
-    background-color: var(--cor3);
+    background-color: #ffa78d;
 }
