@@ -92,8 +92,9 @@ a {
     cursor: pointer;
 }
 
-.lista_menu > li > a {
-    margin: 0 32px;
+.lista_menu {
+    display: flex;
+    gap: 32px;
 }
 
 .lista_menu > li > a:hover {
