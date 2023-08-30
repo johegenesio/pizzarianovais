@@ -17,17 +17,18 @@
         <ul class="lista_menu menu">
             <li><a href="#" class="text-base text-preto">Dashboard</a></li>
             <li><a href="#" class="text-base text-preto">Clientes</a></li>
+            <li><a href="#" class="text-base text-preto">Sair</a></li>
         </ul>
     </nav>
-    <section id="lista">
+    <section id="lista" class="text-base">
 
     </section>
     <section id="form_add">
         <label for="input" class="text-base">Cadastrar cliente</label>
         <input type="text" id="input">
-        <button>Cadastrar</button>
+        <button class="btn_pedido" onclick="cadastrarItem()">Cadastrar</button>
     </section>
-    <div class="btn__add">
+    <div class="btn__add" onclick="exibirFormulario()">
         <span class="material-symbols-outlined">add</span>
     </div>
     <script src="js/painel_adm.js"></script>

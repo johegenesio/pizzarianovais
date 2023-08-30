@@ -1,5 +1,42 @@
 #form_add {
     display: none;
-    width: 300px;
+    width: 30%;
     margin: auto;
+    border: 1px solid var(--cor-preta);
+    padding: 16px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+#form_add > input {
+    width: 100%;
+}
+
+#form_add > .btn_pedido {
+    height: 50px;
+}
+
+.lista {
+    width: 300px;
+    margin: 16px auto;
+    border: 1px solid var(--cor-preta);
+    background-color: var(--cor3);
+    border-radius: 24px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista > button {
+    width: auto;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.lista > button:hover {
+    border: 2px solid var(--cor3);
 }
